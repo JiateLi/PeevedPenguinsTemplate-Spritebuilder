@@ -1369,7 +1369,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Seal</string>
 				<key>displayName</key>
 				<string>seal</string>
 				<key>memberVarAssignmentName</key>
