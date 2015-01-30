@@ -16,3 +16,7 @@
 //- (void)launchPenguin;
 
 @end
+
+@interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
+
+@end
