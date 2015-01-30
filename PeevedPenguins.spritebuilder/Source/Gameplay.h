@@ -9,10 +9,13 @@
 #import "CCNode.h"
 #import "Penguin.h"
 
-@interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
+@interface Gameplay : CCNode
 
 //- (void)didLoadFromCCB;
 //- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event;
 //- (void)launchPenguin;
 @end
 
+@interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
+
+@end
