@@ -108,7 +108,7 @@ static const float MIN_SPEED = 5.f;
 - (void)releaseCatapult {
     if (_mouseJoint != nil)
     {
-        /*
+        
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
         _mouseJoint = nil;
@@ -121,9 +121,9 @@ static const float MIN_SPEED = 5.f;
         _currentPenguin.physicsBody.allowsRotation = TRUE;
         
         // follow the flying penguin
-        CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-        [_contentNode runAction:follow];
-         */
+        //CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+       // [_contentNode runAction:follow];
+        
         
         // follow the flying penguin
         _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
